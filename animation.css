@@ -83,11 +83,11 @@
 }
 
 @keyframes fly3 {
-     0% { transform: translateX(-290%) translateY(-900%); }
-     25%{ transform: translateX(100%) translateY(120%);}
-     50%{transform: translateX(1500%) translateY(200%);}
-     75%{transform: translateX(2300%) translateY(250%);}
-     100% {  transform: translateX(3500%) translateY(190%);  }
+     0% { transform: translateX(-200%) translateY(-50%); }
+     25%{ transform: translateX(400%) translateY(150%);}
+     50%{transform: translateX(1100%) translateY(50%);}
+     75%{transform: translateX(1900%) translateY(200%);}
+     100% {  transform: translateX(3500%) translateY(100%);  } 
     }
 
 /* 1st yellow bird */
@@ -152,7 +152,7 @@
 }
 
 @keyframes fly6 {
-     0% { transform: translateX(130%) translateY(-50%); }
+     0% { transform: translateX(-130%) translateY(-250%); }
      25%{ transform: translateX(390%) translateY(150%);}
      50%{transform: translateX(1200%) translateY(50%);}
      75%{transform: translateX(2500%) translateY(200%);}
@@ -175,7 +175,7 @@
 }
 
 @keyframes fly7 {
-     0% { transform: translateX(-80%) translateY(-50%); }
+     0% { transform: translateX(-250%) translateY(-150%); }
      25%{ transform: translateX(560%) translateY(150%);}
      50%{transform: translateX(1650%) translateY(50%);}
      75%{transform: translateX(1820%) translateY(200%);}
