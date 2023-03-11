@@ -1,0 +1,184 @@
+/* 1st pink bird */
+
+.birdp1{ 
+    width: 3em; 
+    height: 3em; 
+    background-image: url(./images/pink\ bird.png); 
+    background-size: contain;
+    position: absolute; 
+    top: 10%; 
+    left: -20%; 
+    animation: fly 8s infinite;
+    animation-delay: 0s;
+}
+
+@keyframes fly {
+     0% { transform: translateX(-200%) translateY(-50%); }
+     25%{ transform: translateX(500%) translateY(150%);}
+     50%{transform: translateX(1200%) translateY(50%);}
+     75%{transform: translateX(1800%) translateY(200%);}
+     100% {  transform: translateX(3500%) translateY(110%);  } 
+    }
+
+
+/* 2nd pink bird */
+
+.birdp2{ 
+    width:3em; 
+    height:3em; 
+    background-image: url(./images/pink\ bird.png); 
+    background-size: contain;
+    position: absolute; 
+    top: 10%; 
+    left: -20%; 
+    animation: fly1 8s infinite;
+    animation-delay: 4s;
+}
+
+@keyframes fly1 {
+     0% { transform: translateX(-110%) translateY(-80%); }
+     25%{ transform: translateX(800%) translateY(190%);}
+     50%{transform: translateX(1400%) translateY(48%);}
+     75%{transform: translateX(1700%) translateY(180%);}
+     100% {  transform: translateX(3500%) translateY(210%);  } 
+    }
+
+
+
+/* 1st blue bird */
+
+.birdb1{ 
+    width: 3em; 
+    height: 3em; 
+    background-image: url(./images/blue\ bird.png); 
+    background-size: contain;
+    position: absolute; 
+    top: 10%; 
+    left: -20%; 
+    animation: fly2 8s infinite;
+    animation-delay: 2s;
+}
+
+@keyframes fly2 {
+     0% { transform: translateX(-300%) translateY(-70%); }
+     25%{ transform: translateX(400%) translateY(90%);}
+     50%{transform: translateX(1100%) translateY(120%);}
+     75%{transform: translateX(1900%) translateY(600%);}
+     100% {  transform: translateX(3500%) translateY(250%);  } 
+    }
+
+
+/* 2nd blue bird */
+
+.birdb2{ 
+    width: 3em; 
+    height: 3em; 
+    background-image: url(./images/blue\ bird.png); 
+    background-size: contain;
+    position: absolute; 
+    top: 10%; 
+    left: -20%; 
+    animation: fly3 8s infinite;
+    animation-delay: 5s;
+}
+
+@keyframes fly3 {
+     0% { transform: translateX(-290%) translateY(-900%); }
+     25%{ transform: translateX(100%) translateY(120%);}
+     50%{transform: translateX(1500%) translateY(200%);}
+     75%{transform: translateX(1600%) translateY(250%);}
+     100% {  transform: translateX(3500%) translateY(190%);  } 
+    }
+
+/* 1st yellow bird */
+
+.birdy1{ 
+    width: 3em; 
+    height: 3em; 
+    background-image: url(./images/yellow\ bird.png); 
+    background-size: contain;
+    position: absolute; 
+    top: 10%; 
+    left: -20%; 
+    animation: fly4 8s infinite;
+    animation-delay: 3s;
+}
+
+@keyframes fly4 {
+     0% { transform: translateX(-200%) translateY(-50%); }
+     25%{ transform: translateX(800%) translateY(150%);}
+     50%{transform: translateX(1900%) translateY(50%);}
+     75%{transform: translateX(2300%) translateY(200%);}
+     100% {  transform: translateX(3500%) translateY(100%);  } 
+    }
+
+
+/* 2nd yellow bird */
+
+.birdy2{ 
+    width:3em; 
+    height:3em; 
+    background-image: url(./images/yellow\ bird.png); 
+    background-size: contain;
+    position: absolute; 
+    top: 10%; 
+    left: -20%; 
+    animation: fly5 8s infinite;
+    animation-delay: 6s;
+}
+
+@keyframes fly5 {
+     0% { transform: translateX(-100%) translateY(-50%); }
+     25%{ transform: translateX(900%) translateY(150%);}
+     50%{transform: translateX(1400%) translateY(50%);}
+     75%{transform: translateX(2200%) translateY(200%);}
+     100% {  transform: translateX(3500%) translateY(50%);  } 
+    }
+
+
+
+/* 1st purple bird */
+
+.birdr1{ 
+    width: 3em; 
+    height: 3em; 
+    background-image: url(./images/purple\ bird.png); 
+    background-size: contain;
+    position: absolute; 
+    top: 10%; 
+    left: -20%; 
+    animation: fly6 8s infinite;
+    animation-delay: 8s;
+}
+
+@keyframes fly6 {
+     0% { transform: translateX(130%) translateY(-50%); }
+     25%{ transform: translateX(390%) translateY(150%);}
+     50%{transform: translateX(1200%) translateY(50%);}
+     75%{transform: translateX(2500%) translateY(200%);}
+     100% {  transform: translateX(3500%) translateY(60%);  } 
+    }
+
+
+/* 2nd purple bird */
+
+.birdr2{ 
+    width: 3em; 
+    height: 3em; 
+    background-image: url(./images/purple\ bird.png); 
+    background-size: contain;
+    position: absolute; 
+    top: 10%; 
+    left: -20%; 
+    animation: fly7 8s infinite;
+    animation-delay: 7s;
+}
+
+@keyframes fly7 {
+     0% { transform: translateX(-20%) translateY(-50%); }
+     25%{ transform: translateX(560%) translateY(150%);}
+     50%{transform: translateX(1650%) translateY(50%);}
+     75%{transform: translateX(1820%) translateY(200%);}
+     100% {  transform: translateX(3500%) translateY(145%);  } 
+    }
+

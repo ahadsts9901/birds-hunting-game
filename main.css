@@ -4,8 +4,7 @@
 }
 
 body{
-    background-image: url(./images/background\ 2.png);
-    background-color: #22b14c;
+    background-color: #0c6eca;
     background-repeat: repeat-x;
 }
 
@@ -13,14 +12,6 @@ body{
     position: fixed;
     top: 2em;
     right: 2em;
-    z-index: 10;
-}
-
-.tree{
-    position: fixed;
-    top: 13em;
-    right: 2em;
-    z-index: 10;
 }
 
 input{
@@ -30,30 +21,34 @@ input{
 .bird{
     width: 3em;
     height: 3em;
+    z-index: 30;
 }
 
-/* apply animation on bird */
+.board{
+    color: #fff;
+    background-color: #341212;
+    padding: 1em;
+    width: 8em;
+    text-align: center;
+    border: 1px solid #fff;
+    position: fixed;
+    bottom: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
-.birdp1{
-    animation-name: first ;
-    animation-duration: 4s;
+.message{
+    display: flex;
+    justify-content: center;
 }
 
 /* display none after check bird */
+
 
 #birdp1:checked + label{
     opacity: 0%;
 }
 
 #birdp2:checked + label{
-    opacity: 0%;
-}
-
-#birdp3:checked + label{
-    opacity: 0%;
-}
-
-#birdp4:checked + label{
     opacity: 0%;
 }
 
@@ -65,27 +60,11 @@ input{
     opacity: 0%;
 }
 
-#birdy3:checked + label{
-    opacity: 0%;
-}
-
-#birdy4:checked + label{
-    opacity: 0%;
-}
-
 #birdr1:checked + label{
     opacity: 0%;
 }
 
 #birdr2:checked + label{
-    opacity: 0%;
-}
-
-#birdr3:checked + label{
-    opacity: 0%;
-}
-
-#birdr4:checked + label{
     opacity: 0%;
 }
 
@@ -97,31 +76,27 @@ input{
     opacity: 0%;
 }
 
-#birdb3:checked + label{
-    opacity: 0%;
-}
-
-#birdb4:checked + label{
-    opacity: 0%;
-}
-
 /* animations */
 
 @keyframes first {
     0%  {
         top: 10%;
-        left: -10%;
+        right: 150%;
     }
     25%  {
         top: 50%;
-        left: 65%;
+        right: 80%;
+    }
+    50%  {
+        top: 30%;
+        right: 50%;
     }
     75%  {
-        top: 20%;
-        left: 80%;
+        top: 40%;
+        right: 30%;
     }
     100%  {
-        top: 40%;
-        left: 150%;
+        top: 10%;
+        right: -50%;
     }
 }
