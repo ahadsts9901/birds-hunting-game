@@ -8,7 +8,7 @@
     position: absolute; 
     top: 10%; 
     left: -20%; 
-    animation: fly 8s infinite;
+    animation: fly 12s infinite;
     animation-delay: 0s;
 }
 
@@ -31,7 +31,7 @@
     position: absolute; 
     top: 10%; 
     left: -20%; 
-    animation: fly1 8s infinite;
+    animation: fly1 12s infinite;
     animation-delay: 4s;
 }
 
@@ -55,7 +55,7 @@
     position: absolute; 
     top: 10%; 
     left: -20%; 
-    animation: fly2 8s infinite;
+    animation: fly2 12s infinite;
     animation-delay: 2s;
 }
 
@@ -78,7 +78,7 @@
     position: absolute; 
     top: 10%; 
     left: -20%; 
-    animation: fly3 8s infinite;
+    animation: fly3 12s infinite;
     animation-delay: 5s;
 }
 
@@ -100,7 +100,7 @@
     position: absolute; 
     top: 10%; 
     left: -20%; 
-    animation: fly4 8s infinite;
+    animation: fly4 12s infinite;
     animation-delay: 3s;
 }
 
@@ -123,7 +123,7 @@
     position: absolute; 
     top: 10%; 
     left: -20%; 
-    animation: fly5 8s infinite;
+    animation: fly5 12s infinite;
     animation-delay: 6s;
 }
 
@@ -147,7 +147,7 @@
     position: absolute; 
     top: 10%; 
     left: -20%; 
-    animation: fly6 8s infinite;
+    animation: fly6 12s infinite;
     animation-delay: 8s;
 }
 
@@ -170,7 +170,7 @@
     position: absolute; 
     top: 10%; 
     left: -20%; 
-    animation: fly7 8s infinite;
+    animation: fly7 12s infinite;
     animation-delay: 7s;
 }
 
