@@ -86,8 +86,8 @@
      0% { transform: translateX(-290%) translateY(-900%); }
      25%{ transform: translateX(100%) translateY(120%);}
      50%{transform: translateX(1500%) translateY(200%);}
-     75%{transform: translateX(1600%) translateY(250%);}
-     100% {  transform: translateX(3500%) translateY(190%);  } 
+     75%{transform: translateX(2300%) translateY(250%);}
+     100% {  transform: translateX(3500%) translateY(190%);  }
     }
 
 /* 1st yellow bird */
@@ -175,7 +175,7 @@
 }
 
 @keyframes fly7 {
-     0% { transform: translateX(-20%) translateY(-50%); }
+     0% { transform: translateX(-80%) translateY(-50%); }
      25%{ transform: translateX(560%) translateY(150%);}
      50%{transform: translateX(1650%) translateY(50%);}
      75%{transform: translateX(1820%) translateY(200%);}
