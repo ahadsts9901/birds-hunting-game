@@ -2,19 +2,19 @@
 
 
 .eagle{
-    width: 12%;
-    height: 12%;
+    width: 10em;
+    height: 10em;
     top: 10%; 
-    left: -20%;
+    left: -50%;
     position: absolute;
     animation: eagle 12s infinite;
-    animation-delay: 15s;
+    animation-delay: 1s;
 }
 
 @keyframes eagle {
     0% { transform: translateX(-200%) translateY(-50%); }
-    50%{transform: translateX(1200%) translateY(500%);}
-    100% {  transform: translateX(3500%) translateY(1500%);  } 
+    50%{transform: translateX(1200%) translateY(300%);}
+    100% {  transform: translateX(3500%) translateY(300%);  }
    }
 
 
@@ -453,4 +453,20 @@
     left: -20%; 
     animation: fly7 7s infinite;
     animation-delay: 23s;
+}
+
+
+/* media query */
+
+@media (max-width: 1024px){
+
+    body{
+        overflow: hidden;
+    }
+
+    .eagle{
+        animation: eagle 25s infinite;
+    }
+
+
 }
