@@ -18,12 +18,6 @@ input{
     display: none;
 }
 
-.bird{
-    width: 3em;
-    height: 3em;
-    z-index: 30;
-}
-
 .board{
     color: #fff;
     background-color: #341212;
@@ -41,62 +35,130 @@ input{
     justify-content: center;
 }
 
+/* score board */
+
+.bird:checked{
+    counter-increment: board;
+}
+
+.board{
+    display: flex;
+    width: 6em;
+}
+
+
+.board:before{
+    content:' Score : ';
+    display: inline-block;
+    margin-left: 0.5em;
+}
+
+.board:after{
+    content: counter(score);
+    display: inline-block;
+    margin-left: 0.5em;
+}
+
+
 /* display none after check bird */
 
 
 #birdp1:checked + label{
-    opacity: 0%;
+    display: none;
 }
 
 #birdp2:checked + label{
-    opacity: 0%;
+    display: none;
 }
 
 #birdy1:checked + label{
-    opacity: 0%;
+    display: none;
 }
 
 #birdy2:checked + label{
-    opacity: 0%;
+    display: none;
 }
 
 #birdr1:checked + label{
-    opacity: 0%;
+    display: none;
 }
 
 #birdr2:checked + label{
-    opacity: 0%;
+    display: none;
 }
 
 #birdb1:checked + label{
-    opacity: 0%;
+    display: none;
 }
 
 #birdb2:checked + label{
-    opacity: 0%;
+    display: none;
 }
 
-/* animations */
+/* second loop */
 
-@keyframes first {
-    0%  {
-        top: 10%;
-        right: 150%;
-    }
-    25%  {
-        top: 50%;
-        right: 80%;
-    }
-    50%  {
-        top: 30%;
-        right: 50%;
-    }
-    75%  {
-        top: 40%;
-        right: 30%;
-    }
-    100%  {
-        top: 10%;
-        right: -50%;
-    }
+#birdp3:checked + label{
+    display: none;
+}
+
+#birdp4:checked + label{
+    display: none;
+}
+
+#birdy3:checked + label{
+    display: none;
+}
+
+#birdy4:checked + label{
+    display: none;
+}
+
+#birdr3:checked + label{
+    display: none;
+}
+
+#birdr4:checked + label{
+    display: none;
+}
+
+#birdb3:checked + label{
+    display: none;
+}
+
+#birdb4:checked + label{
+    display: none;
+}
+
+/* third loop */
+
+#birdp5:checked + label{
+    display: none;
+}
+
+#birdp6:checked + label{
+    display: none;
+}
+
+#birdy5:checked + label{
+    display: none;
+}
+
+#birdy6:checked + label{
+    display: none;
+}
+
+#birdr5:checked + label{
+    display: none;
+}
+
+#birdr6:checked + label{
+    display: none;
+}
+
+#birdb5:checked + label{
+    display: none;
+}
+
+#birdb6:checked + label{
+    display: none;
 }
