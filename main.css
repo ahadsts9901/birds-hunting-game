@@ -8,26 +8,8 @@ body{
     background-repeat: repeat-x;
 }
 
-.sun{
-    position: fixed;
-    top: 2em;
-    right: 2em;
-}
-
 input{
     display: none;
-}
-
-.board{
-    color: #fff;
-    background-color: #341212;
-    padding: 1em;
-    width: 8em;
-    text-align: center;
-    border: 1px solid #fff;
-    position: fixed;
-    bottom: 1%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .message{
@@ -36,29 +18,33 @@ input{
 }
 
 /* score board */
-
-.bird:checked{
-    counter-increment: board;
+.score{
+    color: #fff;
+    background-color: #341212;
+    padding: 1em;
+    width: 90%;
+    text-align: center;
+    border: 1px solid #fff;
+    position: fixed;
+    bottom: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.board{
-    display: flex;
-    width: 6em;
-}
-
-
-.board:before{
-    content:' Score : ';
+/* .score::before{
+    content:'Kill All Birds';
     display: inline-block;
     margin-left: 0.5em;
-}
+} */
 
-.board:after{
-    content: counter(score);
+/* .score::after{
+    content: counter( score );
     display: inline-block;
     margin-left: 0.5em;
-}
+} */
 
+/* input :checked{
+    counter-increment :score;
+} */
 
 /* display none after check bird */
 
